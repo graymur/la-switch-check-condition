@@ -16,9 +16,6 @@
         "url": "https://github.com/graymur/la-switch-check-condition/issues"
     },
     "homepage": "https://github.com/graymur/la-switch-check-condition#readme",
-    "lambdas": {
-        "switch_check_condition": "index.switchCheckCondition"
-    },
     "dependencies": {
         "aws-sdk": "^2.1692.0",
         "debug": "^4.4.1",

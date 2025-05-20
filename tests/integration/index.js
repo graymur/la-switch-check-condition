@@ -1,6 +1,6 @@
 const assert = require('chai').assert
 const context = require('../mocks/context')
-const { switchCheckCondition } = require('../../src/index')
+const switchCheckCondition = require('../../index')
 
 describe('Works as switch', function () {
     it('Applies expressions', async () => {
