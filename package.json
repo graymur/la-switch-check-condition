@@ -1,0 +1,36 @@
+{
+    "name": "la-switch-check-condition",
+    "version": "0.0.1",
+    "description": "AWS Lambda function performing `switch` functionality",
+    "main": "index.js",
+    "scripts": {
+        "test": "cross-env NODE_ENV=test mocha ./tests/integration"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:graymur/la-switch-check-condition.git"
+    },
+    "author": "Graymur",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/graymur/la-switch-check-condition/issues"
+    },
+    "homepage": "https://github.com/graymur/la-switch-check-condition#readme",
+    "lambdas": {
+        "switch_check_condition": "index.switchCheckCondition"
+    },
+    "dependencies": {
+        "aws-sdk": "^2.1692.0",
+        "debug": "^4.4.1",
+        "event-stream": "^4.0.1",
+        "JSONStream": "^1.3.5",
+        "lodash": "^4.17.21",
+        "uuid": "^2.0.2"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "chai": "^4.1.0",
+        "cross-env": "^5.0.1",
+        "mocha": "^4.0.1"
+    }
+}
